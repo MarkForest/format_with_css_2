@@ -1,0 +1,39 @@
+/*Селекторы по элементам*/
+body{
+    background: black;
+}
+p{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+/*Селекторы по классам*/
+.even_item{
+    color: red;
+}
+
+/*Селектор по id*/
+#blue_color{
+    color: pink;
+}
+
+ul>li>p {
+    text-decoration: underline;
+}
+
+ul li p {
+    text-decoration: underline;
+}
+
+ul .list_main {
+
+}
+
+a[href="http://google.com"]{
+    font-size: 100px;
+}
+
+
+
+
+
